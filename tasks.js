@@ -3,7 +3,7 @@
 // ==========================================
 
 
-// 1. VARIABLES & DATA TYPES
+
 
 console.log("===== VARIABLES & DATA TYPES =====");
 
@@ -47,7 +47,6 @@ console.log("Original User:", user);
 console.log("Updated User:", updatedUser);
 
 
-// 3. ARRAYS
 
 console.log("\n===== INITIAL TASKS =====");
 
@@ -60,9 +59,6 @@ const tasks = [
 console.log(tasks);
 
 
-// 4. FUNCTIONS (ARROW FUNCTIONS ONLY)
-
-// Add a new task
 const addTask = (title) => {
     const newTask = {
         id: tasks.length > 0
